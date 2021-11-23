@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>노른자 링크 - 추가</title>
+</head>
+<body>
+    <form>
+        <fieldset>
+            <legend for="kind">종류</legend>
+            <input type="radio" name="naverpay" id="naverpay">
+            <label for="naverpay"> <img class="icons" src="../assets/images/001.png"/></label>
+            <input type="radio" name="ohrabang" id="ohrabang">
+            <label for="ohrabang"> <img class="icons" src="../assets/images/004.png" /></label>
+            <input type="radio" name="timespread" id="timespread">
+            <label for="timespread"> <img class="icons" src="../assets/images/003.png" /></label>
+        </fieldset>
+
+        <fieldset>
+            <legend for="kind">정보</legend>
+            <ul>
+                <li> 
+                    <label for="memo">설명과 정답</label>
+                    <textarea id="memo" col="180" rows="4" required></textarea>
+                </li>
+                <li>
+                    <label for="memo">링크</label>
+                    <textarea id="memo" col="180" rows="4" required></textarea>
+                </li>
+             </ul>
+        </fieldset>
+
+        <button type="submit">입력</button>
+        <button type="cancel">취소</button>
+    </form>
+</body>
+</html>
