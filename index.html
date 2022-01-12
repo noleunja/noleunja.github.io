@@ -76,6 +76,15 @@
             </li> -->
 
             
+           
+            <li class="item">
+                <a class="button" href="https://campaign.naver.com/npay/click-point/?eventId=cr_2022011301_2201_2_1647"> 
+                    <div>
+                        <img class="icons" src="../assets/images/icon_1.png" />
+                        <span>삼성닷컴 적립 20원</span>
+                    </div>
+                </a>
+            </li>
 
             <li class="item">
                 <a class="button" href="https://campaign.naver.com/npay/click-point/?eventId=cr_2022011101_2201_1_1613"> 
@@ -137,15 +146,6 @@
                     <div>
                         <img class="icons" src="../assets/images/icon_1.png" />
                         <span>네이버쇼핑 설명절 적립 10원</span>
-                    </div>
-                </a>
-            </li>
-
-            <li class="item">
-                <a class="button" href="https://campaign.naver.com/npay/click-point/?eventId=cr_2022010601_2201_1_1810"> 
-                    <div>
-                        <img class="icons" src="../assets/images/icon_1.png" />
-                        <span>삼성닷컴 공동구매 적립 20원</span>
                     </div>
                 </a>
             </li>
@@ -265,6 +265,14 @@
     <footer>
         <p>노른자컴퍼니에서 앱테크를 보다 간편하게 하기 위해 만들었습니다. 클릭만 하세요.<br> 해당 페이지는 모바일에 최적화되어 있습니다. </p>
     </footer>
+
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js" integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4=" crossorigin="anonymous"></script>
+
+    <script>
+        $(".item").click(function(){
+            $( this ).css("background-color", "#ccc");
+        });
+    </script>
 
 </body>
 
